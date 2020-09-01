@@ -6,20 +6,81 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
+/***************** header *****************************/
+.header__link{
+  color:#2f80ed;
+}
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
+.logo{
+  background-image: url('../images/logo_place_header.svg');
+  background-size: contain;
+}
+
+.logo_place_header{
+  width: 183px;
+  height: 32px;
+  position: absolute;
+  left: 64px;
+  top: 30px;
+  z-index: 5;
+}
+
+.header__title{
+  font-size: 102px;
+  line-height: 96px;
+}
+
+.title_place_header{
+  width: 730px;
+  z-index: 10;
+  padding-left:64px;
+}
+
+.header__subtitle{
+  font-size:18px;
+  line-height: 25px;
+}
+
+.subtitle_place_header{
+  width: 388px;
+  position: absolute;
+  z-index: 5;
+  bottom: 30px;
+  left: 64px;
+}
+
+.header__main-illustration_place_header{
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__square-pic{
+  background-color: #2f80ed;
+}
+
+.square-pic_place_header{
   width: 568px;
+  height: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -29,3 +90,16 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+/******************* description block ******************************/
+
+
+/******************* digits block ******************************/
+
+/******************* feynman block ******************************/
+
+
+/******************* kaufman block ******************************/
+
+
+/******************* footer ******************************/
