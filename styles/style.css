@@ -14,6 +14,10 @@
   color:#2f80ed;
   text-decoration: none;
 }
+.header__link:hover{
+  text-decoration: underline;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -227,6 +231,10 @@
   right: 48px;
   top: 50%;
   z-index: 1;
+}
+
+.feinman__link:hover{
+  text-decoration: underline;
 }
 
 .feinman__title, .feinman__subtitle{
