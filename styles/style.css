@@ -206,9 +206,8 @@
   font-size: 120px;
   line-height: 1.15;
   width: 648px;
-}
-
-.feinman__title, .feinman__subtitle{
+  position: relative;
+  z-index: 1;
   margin: 0 auto;
   text-align: center;
 }
@@ -219,8 +218,12 @@
 }
 
 .feinman__subtitle{
+  margin: 0 auto;
+  text-align: center;
   margin:70px 0 0;
   font-weight: normal;
+  position: relative;
+  z-index: 1;
 }
 
 .feinman__link{
@@ -236,10 +239,6 @@
   text-decoration: underline;
 }
 
-.feinman__title, .feinman__subtitle{
-  position: relative;
-  z-index: 1;
-}
 /******************* kaufman block ******************************/
 
 .kaufman{
