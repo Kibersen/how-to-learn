@@ -264,13 +264,10 @@
   margin-top: 80px;
 }
 
-.section-title_theme_dark, .section-subtitle_theme_dark, .section-block__position_section-block{
-  position: relative;
-  z-index: 1;
-}
-
 .section-title_theme_dark, .section-subtitle_theme_dark, .table__heading_theme_dark, .table__text_theme_dark{
   color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 /******************* footer ******************************/
