@@ -264,12 +264,7 @@
   margin-top: 80px;
 }
 
-.section-block__position_section-block{
-  position: relative;
-  z-index: 1;
-}
-
-.section-title_theme_dark, .section-subtitle_theme_dark{
+.section-title_theme_dark, .section-subtitle_theme_dark, .section-block__position_section-block{
   position: relative;
   z-index: 1;
 }
