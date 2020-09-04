@@ -142,8 +142,6 @@
   font-size:60px;
   line-height: 1.15;
   font-weight: 700;
-  position: relative;
-  z-index: 1;
 }
 
 .section-subtitle{
@@ -151,8 +149,6 @@
   line-height: 34px;
   font-weight: normal;
   padding-top: 20px;
-  position: relative;
-  z-index: 1;
 }
 
 .table{
@@ -269,6 +265,11 @@
 }
 
 .section-block__position_section-block{
+  position: relative;
+  z-index: 1;
+}
+
+.section-title_theme_dark, .section-subtitle_theme_dark{
   position: relative;
   z-index: 1;
 }
