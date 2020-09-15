@@ -1,0 +1,14 @@
+.feinman__link{
+  font-size:36px;
+  line-height:51px;
+  color:#000;
+  text-decoration: none;
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  z-index: 1;
+}
+
+.feinman__link:hover{
+  text-decoration: underline;
+}

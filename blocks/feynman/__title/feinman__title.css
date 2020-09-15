@@ -1,0 +1,9 @@
+.feinman__title{
+  font-size: 120px;
+  line-height: 1.15;
+  width: 648px;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  text-align: center;
+}
