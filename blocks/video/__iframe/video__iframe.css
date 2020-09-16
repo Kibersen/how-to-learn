@@ -1,0 +1,7 @@
+.video__iframe{
+  align-self: center;
+}
+
+.video__iframe:first-child{
+  padding-right: 10px;
+}
