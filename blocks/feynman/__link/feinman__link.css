@@ -7,8 +7,9 @@
   right: 48px;
   top: 50%;
   z-index: 1;
+  transition: opacity 1s;
 }
 
 .feinman__link:hover{
-  text-decoration: underline;
+  opacity: 0.6;
 }
