@@ -1,5 +1,6 @@
 .video__iframe{
   align-self: center;
+  border: 0;
 }
 
 .video__iframe:first-child{
